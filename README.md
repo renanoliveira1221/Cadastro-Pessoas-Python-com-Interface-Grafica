@@ -19,7 +19,7 @@ caso não funcione a criação do ambiente virtual por esse arquivo
 
 1. abra a pasta do projeto no VSCode
 2. vá até o terminal
-3. copia e cola os comandos no presentes na pasta "comandos_ambiente_virtual.txt"
+3. copia e cola os comandos no presentes no arquivo "comandos_ambiente_virtual.txt"
 
 ## Módulos utilizados
 
