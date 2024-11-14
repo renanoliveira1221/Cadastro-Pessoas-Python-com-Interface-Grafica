@@ -1,6 +1,10 @@
 # Sistema de Cadastro de Pessoas com interface gráfica
 O objetivo desse projeto é aprender um pouco sobre interface gráfica em python utilizando o módulo CustomTkInter
 
+## ATENÇÃO
+
+Todos os dados do banco de dados foram coletados do https://www.4devs.com.br/gerador_de_pessoas
+
 ## Como executar?
 
 Necessário ter o python instalado
@@ -9,10 +13,13 @@ Na primeira execução, abra o "criar_ambiente_virtual.bat" e em seguida o "STAR
 
 Nas seguintes execuções abra somente o "START.vbs"
 
+## Erro ao abrir "criar_ambiente_virtual.bat"?
 
-## ATENÇÃO
+caso não funcione a criação do ambiente virtual por esse arquivo
 
-Todos os dados do banco de dados foram coletados do https://www.4devs.com.br/gerador_de_pessoas
+1. abra a pasta do projeto no VSCode
+2. vá até o terminal
+3. copia e cola os comandos no presentes na pasta "comandos_ambiente_virtual.txt"
 
 ## Módulos utilizados
 
@@ -26,3 +33,4 @@ Todos os dados do banco de dados foram coletados do https://www.4devs.com.br/ger
 [Acessar Documentação](https://docs.sqlalchemy.org/en/20/)
 - validate_docbr - validader CPF\
 [Acessar Documentação](https://pypi.org/project/validate-docbr/)
+
