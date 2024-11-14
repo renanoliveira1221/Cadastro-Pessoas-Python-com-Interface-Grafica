@@ -34,3 +34,21 @@ caso não funcione a criação do ambiente virtual por esse arquivo
 - validate_docbr - validader CPF\
 [Acessar Documentação](https://pypi.org/project/validate-docbr/)
 
+## Comandos para criar o ambiente virtual terminal VSCode
+
+1. Abra a pasta do projeto no VisualStudioCode
+
+2. instalar o virtualenv\
+`pip install virtualenv`
+
+3. criar o ambiente virtual\
+`virtualenv venv -p 3.12.6`
+
+4. navegar até a pasta do ambiente virtual\
+`cd venv\Scripts`
+
+5. ativar o ambiente virtual\
+`activate`
+
+6. instalar os módulos necessários\
+`pip install -r ..\..\requirements.txt`
